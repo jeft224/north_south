@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>滴滴代驾-南北大战</title>
+    <link rel="stylesheet" href="style/common.css"/>
+</head>
+<body>
+<div class="container">
+    <div class="warp">
+        <!--面向对象的css编程-->
+        <div class="person background-type person-s animating"></div>
+        <div class="person background-type person-n animating"></div>
+        <div class="lightning background-type animating"></div>
+        <div class="main-text background-type animating"></div>
+        <div class="text background-type animating"></div>
+        <div class="btn-module">
+            <div class="btns">
+                <div class="btn">
+                    <a href="#" class="south-btn"></a>
+                </div>
+                <div class="btn">
+                    <a href="#" class="north-btn"></a>
+                </div>
+            </div>
+            <div class="act-desc">
+                <span class="J_actRules"></span>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    ;(function(win) {
+        var w = document.body && document.body.clientWidth,f = w*48/360;
+        window.document.getElementsByTagName('html')[0].setAttribute('style', 'font-size:' + f + 'px;');
+    })(window);
+</script>
+
+</html>
