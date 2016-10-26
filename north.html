@@ -2,9 +2,29 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title></title>
+    <title>北方代驾</title>
+   <link rel="stylesheet" href="style/north.css"/>
 </head>
 <body>
-
+<div class="container">
+    <div class="pa wrap north">
+        <div class="person animating"></div>
+        <div class="word word1 animating"></div>
+        <div class="text animating"></div>
+        <div class="sign-module">
+            <input class="phone" type="tel" placeholder="输入手机号" maxlength="11">
+            <a href="javascript:;" class="btn_apply background-type btn" >
+                <span class="btn-draw"></span>
+            </a>
+            <span class="logo"></span>
+        </div>
+    </div>
+</div>
 </body>
+<script>
+    ;(function(win) {
+        var w = document.body && document.body.clientWidth,f = w*48/360;
+        window.document.getElementsByTagName('html')[0].setAttribute('style', 'font-size:' + f + 'px;');
+    })(window);
+</script>
 </html>
